@@ -23,13 +23,12 @@ const App: React.FC = () => {
     : SERVICES.filter(s => s.category === activeCategory);
 
   const categories = [
-  { id: 'all', en: 'All Services', ta: 'அனைத்து சேவைகள்' },
-  { id: 'massage', en: 'Massage', ta: 'மசாஜ்' },
-  { id: 'hair', en: 'Hair Care', ta: 'கூந்தல் பராமரிப்பு' },
-  { id: 'facial', en: 'Facial', ta: 'முகல் பராமரிப்பு' },
-  { id: 'treatment', en: 'Treatments', ta: 'சிகிச்சைகள்' },
-  { id: 'combo', en: 'Combo Services', ta: 'காம்போ சேவைகள்' } // ✅ NEW
-];
+    { id: 'all', en: 'All Services', ta: 'அனைத்து சேவைகள்' },
+    { id: 'combo', en: 'Combo Offers', ta: 'சிறப்பு காம்போ' },
+    { id: 'massage', en: 'Massage', ta: 'மசாஜ்' },
+    { id: 'hair', en: 'Hair Care', ta: 'கூந்தல் பராமரிப்பு' },
+    { id: 'treatment', en: 'Treatments', ta: 'சிகிச்சைகள்' }
+  ];
 
   return (
     <div className="min-h-screen">
@@ -118,7 +117,7 @@ const App: React.FC = () => {
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${
                   activeCategory === cat.id 
-                    ? 'bg-emerald-700 text-white shadow-lg' 
+                    ? (cat.id === 'combo' ? 'bg-amber-500 text-white shadow-lg ring-2 ring-amber-100' : 'bg-emerald-700 text-white shadow-lg')
                     : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
                 }`}
               >

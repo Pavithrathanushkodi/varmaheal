@@ -15,7 +15,7 @@ export interface Service {
   originalPrice?: number;
   duration?: string;
   imageUrl: string;
-  category: 'massage' | 'hair' | 'treatment' | 'other';
+  category: 'massage' | 'hair' | 'treatment' | 'other' | 'combo';
   addOns?: {
     name: { en: string; ta: string };
     price: number;
