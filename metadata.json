@@ -1,0 +1,8 @@
+
+{
+  "name": "Healing Care Wellness",
+  "description": "A modern, bilingual (Tamil & English) wellness and massage center website featuring specialized treatments like Varma, Shirodhara, and traditional oil massages.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
