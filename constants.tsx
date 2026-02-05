@@ -224,7 +224,7 @@ export const SERVICES: Service[] = [
     ta: "ஜாணு பஸ்தியில் மூட்டு வலி இயற்கையாகக் குறைக்கலாம். ஒஸ்டியோ ஆர்த்ரைட்டிஸ் (Osteoarthritis) க்கு ஆயுர்வேத சிகிச்சை மூலம் ஆரோக்கியமான மூட்டுக்களுக்கான பயன்கள், சிகிச்சை முறை மற்றும் நிபுணர்களின் குறிப்புகளை கண்டறியுங்கள்."
   },
   price: 500,
-  imageUrl: "public/images/janu-basti-treatment.png",
+  imageUrl: "/images/janu-basti-treatment.png",
   category: "treatment"
 },
 {
@@ -238,7 +238,7 @@ export const SERVICES: Service[] = [
     ta: "கடி பஸ்தி என்பது கீழ்புற முதுகுக்கான ஆயுர்வேத சிகிச்சை ஆகும். சூடான மூலிகை எண்ணெயை கீழ்புறத்தில் வைத்து விட்டு, வலி மற்றும் இறுக்கத்தை குறைக்கும்."
   },
   price: 500,
-  imageUrl: "public/images/kati basti.jpg",
+  imageUrl: "/images/kati basti.jpg",
   category: "treatment"
 },
 
