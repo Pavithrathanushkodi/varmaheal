@@ -139,7 +139,7 @@ export const SERVICES: Service[] = [
     id: "kaal-pisangal",
     name: { en: "Foot Refloxology", ta: "பாத அழுத்த புள்ளி சிகிச்சை" },
     description: { en: "Traditional ligament setting and medicinal bandaging.", ta: "உடல் முழுவதுடன் தொடர்புடைய பாத அழுத்த புள்ளிகளை தூண்டும் சிகிச்சை மசாஜ்." },
-    price: 333,
+    price: 500,
     imageUrl: "/images/foot refloxology.jpg",
     category: "treatment"
   },
@@ -227,7 +227,20 @@ export const SERVICES: Service[] = [
   imageUrl: "public/images/janu-basti-treatment.png",
   category: "treatment"
 },
-
+{
+  id: "kati-basti",
+  name: { 
+    en: "kati Basti", 
+    ta: "கடி பஸ்தி" 
+  },
+  description: { 
+    en: "Kati Basti is an Ayurvedic therapy for the lower back. Warm herbal oil is poured and retained on the lower back to relieve pain and stiffness.", 
+    ta: "கடி பஸ்தி என்பது கீழ்புற முதுகுக்கான ஆயுர்வேத சிகிச்சை ஆகும். சூடான மூலிகை எண்ணெயை கீழ்புறத்தில் வைத்து விட்டு, வலி மற்றும் இறுக்கத்தை குறைக்கும்."
+  },
+  price: 500,
+  imageUrl: "public/images/kati basti.jpg",
+  category: "treatment"
+},
 
   {
     id: "dandruff-treatment",
