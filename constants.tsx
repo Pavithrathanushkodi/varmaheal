@@ -213,6 +213,21 @@ export const SERVICES: Service[] = [
   imageUrl: "/images/nethra thappanam.png",
   category: "treatment"
 },
+{
+  id: "janu-basti",
+  name: { 
+    en: "Janu Basti", 
+    ta: "ஜாணு பஸ்தி" 
+  },
+  description: { 
+    en: "Relieve knee pain naturally with Janu Basti, an Ayurvedic treatment for osteoarthritis. Discover benefits, procedure, and expert tips for healthy knees.", 
+    ta: "ஜாணு பஸ்தியில் மூட்டு வலி இயற்கையாகக் குறைக்கலாம். ஒஸ்டியோ ஆர்த்ரைட்டிஸ் (Osteoarthritis) க்கு ஆயுர்வேத சிகிச்சை மூலம் ஆரோக்கியமான மூட்டுக்களுக்கான பயன்கள், சிகிச்சை முறை மற்றும் நிபுணர்களின் குறிப்புகளை கண்டறியுங்கள்."
+  },
+  price: 500,
+  imageUrl: "public/images/janu-basti-treatment.png",
+  category: "treatment"
+},
+
 
   {
     id: "dandruff-treatment",
@@ -280,9 +295,10 @@ export const SERVICES: Service[] = [
     ta: "முழு உடல் மசாஜ், சிரோதாரா, பாத ரிஃப்ளெக்சாலஜி, தாய் மசாஜ், கைரோபிராக்டிக் & நேத்ர தர்ப்பணம்."
   },
   price: 3800,
-  imageUrl: "/images/combo 1.png",
+  imageUrl: "/images/combo 2.png",
   category: "combo",
   
 }
+
 
 ];
